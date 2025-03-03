@@ -1,0 +1,15 @@
+[project]
+name = "dispose"
+description = "ComfyUI supports over lihxxx/DisPose, which generates a new video with a reference video as poses and a reference image as everything else."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["accelerate", "torch", "torchvision", "Pillow", "numpy", "omegaconf", "decord", "einops", "matplotlib", "diffusers", "scipy", "av", "imageio", "opencv_contrib_python", "transformers", "huggingface_hub", "onnxruntime"]
+
+[project.urls]
+Repository = "https://github.com/bombax-xiaoice/ComfyUI-DisPose"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-DisPose"
+Icon = ""
