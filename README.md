@@ -32,9 +32,11 @@ wget https://huggingface.co/MyNiuuu/MOFA-Video-Hybrid/resolve/main/models/cmp/ex
 ## Example Workflow
 Drag the following image into comfyui, or click Load for custom_nodes/ComfyUI-DisPose/dispose-comfy-example.json
 
-![](dispose-comfy-example.png)
+![](dispose-example-comfy.png)
 
 Results run under comfy
+
+https://github.com/user-attachments/assets/0e36a3c1-f0c4-4d2b-afe9-b3dc219d6e43
 
 ## Assessment
 
