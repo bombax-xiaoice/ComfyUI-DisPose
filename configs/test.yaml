@@ -1,0 +1,22 @@
+# base svd model path
+base_model_path: ./pretrained_weights/stable-video-diffusion-img2vid-xt-1-1
+# base dift model path
+dift_model_path: ./pretrained_weights/stable-diffusion-v1-5
+
+# checkpoint path
+ckpt_path: ./pretrained_weights/MimicMotion_1-1.pth
+controlnet_path: ./pretrained_weights/DisPose.pth
+
+test_case:
+  - ref_video_path: ./assets/example_data/videos/video1.mp4
+    ref_image_path: ./assets/example_data/images/ref1.png
+    num_frames: 16
+    resolution: 576
+    frames_overlap: 6
+    num_inference_steps: 25
+    noise_aug_strength: 0
+    guidance_scale: 2.0
+    sample_stride: 2
+    decode_chunk_size: 1
+    fps: 15
+    seed: 42
